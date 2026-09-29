@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "saddle": {
+      "type": "http",
+      "url": "${user_config.mcp_url}"
+    }
+  }
+}
