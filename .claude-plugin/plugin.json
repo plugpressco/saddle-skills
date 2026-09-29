@@ -5,17 +5,25 @@
   "description": "Work on your own WordPress site safely: connect Saddle, the self-hosted WordPress MCP server, and follow its protocol for building pages, editing content, SEO, updates and undo. Nothing goes through a third party.",
   "author": {
     "name": "PlugPress",
-    "url": "https://saddle.to"
+    "url": "https://saddle.to",
+    "email": "team@plugpress.io"
   },
   "homepage": "https://saddle.to",
   "repository": "https://github.com/plugpressco/saddle-skills",
   "license": "MIT-0",
-  "keywords": ["wordpress", "mcp", "divi", "gutenberg", "seo", "woocommerce"],
+  "keywords": [
+    "wordpress",
+    "mcp",
+    "divi",
+    "gutenberg",
+    "seo",
+    "woocommerce"
+  ],
   "userConfig": {
     "mcp_url": {
       "type": "string",
       "title": "Your site's Saddle address",
-      "description": "The address from Saddle → Apps in your WordPress admin, for example https://example.com/wp-json/saddle/v1/mcp. Claude Code opens your site's approval screen the first time you use it.",
+      "description": "The address from Saddle \u2192 Apps in your WordPress admin, for example https://example.com/wp-json/saddle/v1/mcp. Claude Code opens your site's approval screen the first time you use it.",
       "required": true
     }
   }

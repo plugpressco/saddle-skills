@@ -77,6 +77,10 @@ grep -rhoE "'saddle/[a-z0-9-]+'" includes/abilities/*.php | sort -u | tr -d "'" 
 node ../saddle-skills/scripts/validate.mjs
 ```
 
+## Support
+
+Questions, problems or ideas: **team@plugpress.io**, or open an issue here.
+
 ## License
 
 MIT-0. Saddle itself is GPL-2.0-or-later and lives at

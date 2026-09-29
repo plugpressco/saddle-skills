@@ -3,7 +3,8 @@
   "description": "Saddle, the self-hosted WordPress MCP server: skills that teach any AI agent to work on a WordPress site safely.",
   "owner": {
     "name": "PlugPress",
-    "url": "https://saddle.to"
+    "url": "https://saddle.to",
+    "email": "team@plugpress.io"
   },
   "plugins": [
     {
