@@ -1,7 +1,7 @@
 ---
 name: saddle-fix-page
 description: Fix what Saddle's page check reports on a WordPress page — structural breaks, ignored styles, contrast, headings, alt text, link names — in the right order, until the page verifies clean. Use when saddle-verify-page or saddle-lint-page returned findings, or the user says a page looks broken.
-license: GPL-2.0-or-later
+license: MIT-0
 metadata:
   author: PlugPress
   homepage: https://saddle.to

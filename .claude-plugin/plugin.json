@@ -9,7 +9,7 @@
   },
   "homepage": "https://saddle.to",
   "repository": "https://github.com/plugpressco/saddle-skills",
-  "license": "GPL-2.0-or-later",
+  "license": "MIT-0",
   "keywords": ["wordpress", "mcp", "divi", "gutenberg", "seo", "woocommerce"],
   "userConfig": {
     "mcp_url": {

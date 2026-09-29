@@ -1,7 +1,7 @@
 ---
 name: saddle-wordpress
 description: Work on a WordPress site through Saddle, the self-hosted WordPress MCP server. Use for any request about a WordPress site that has Saddle connected — reading or editing posts, pages, products and other content, building or fixing pages, menus, templates, SEO fields, media, plugin and theme updates, site health, or undoing a change. Covers the connection check, how access levels, previews and rehearsal work, and which Saddle skill to follow next.
-license: GPL-2.0-or-later
+license: MIT-0
 metadata:
   author: PlugPress
   homepage: https://saddle.to

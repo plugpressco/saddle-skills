@@ -1,7 +1,7 @@
 ---
 name: saddle-site-care
 description: Look after a WordPress site through Saddle — plugin and theme updates through WordPress's own updater, Site Health, activating plugins and themes, site settings, cache, and block-theme templates, header, footer and patterns. Use when the user asks to update plugins, check the site's health, change a setting, or edit a template, header or footer on a site connected through Saddle.
-license: GPL-2.0-or-later
+license: MIT-0
 metadata:
   author: PlugPress
   homepage: https://saddle.to

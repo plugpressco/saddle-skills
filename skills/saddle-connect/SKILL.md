@@ -1,7 +1,7 @@
 ---
 name: saddle-connect
-description: Connect a WordPress site running the Saddle plugin to this AI app, or fix a Saddle connection that fails. Use when the user asks to connect, link or add their WordPress site, when no saddle-* tools are available, or when Saddle calls fail with 401 or missing tools. Gives the exact steps for Claude, Claude Code, ChatGPT, Codex, Cursor, VS Code, Gemini CLI, Windsurf and OpenClaw.
-license: GPL-2.0-or-later
+description: Connect a WordPress site running the Saddle plugin to this AI app, or fix a Saddle connection that fails. Use when the user asks to connect, link or add their WordPress site, when no saddle-* tools are available, or when Saddle calls fail with 401 or missing tools. Gives the exact steps for Claude, Claude Code, ChatGPT, Codex, Cursor, VS Code, Gemini CLI, Windsurf, OpenClaw and Grok.
+license: MIT-0
 metadata:
   author: PlugPress
   homepage: https://saddle.to
@@ -30,9 +30,10 @@ when they want the app to make changes.
 
 Name the server after the site (`saddle-<site>`) so several sites stay apart.
 
-- **Claude (claude.ai and the desktop app):** Settings → Connectors → Add
-  custom connector. Name it, paste the address, leave the OAuth client ID and
-  secret blank, Add. Claude opens the site's approval screen.
+- **Claude (claude.ai and the desktop app):** in Saddle → Apps → Claude, click
+  **Add to Claude** (the connector arrives filled in), or Settings → Connectors
+  → Add custom connector: name it, paste the address, leave the OAuth client
+  ID and secret blank, Add. Claude opens the site's approval screen.
 - **Claude Code:**
   `claude mcp add saddle-<site> --scope user --transport http https://<site>/wp-json/saddle/v1/mcp`
   then run `claude`, type `/mcp`, pick the server and choose Authenticate.
@@ -59,7 +60,15 @@ Name the server after the site (`saddle-<site>`) so several sites stay apart.
   `{"mcpServers":{"saddle-<site>":{"serverUrl":"https://<site>/wp-json/saddle/v1/mcp"}}}`.
 - **OpenClaw:**
   `openclaw mcp add saddle-<site> --url https://<site>/wp-json/saddle/v1/mcp --transport streamable-http --auth oauth`
-  then `openclaw mcp login saddle-<site>`.
+  then `openclaw mcp login saddle-<site>`. Name the transport: left out,
+  OpenClaw uses SSE.
+- **Grok (grok.com and the apps):** Connectors → New Connector → Custom,
+  paste the address, continue; Grok opens the site's approval screen. On a
+  Grok Business team an admin adds the connector first.
+- **Grok Build (xAI's CLI):**
+  `grok mcp add --transport http saddle-<site> https://<site>/wp-json/saddle/v1/mcp`.
+  It also reads Claude Code's MCP settings, so a site added there carries
+  over.
 
 For any other MCP app, give it the address; if it signs in with OAuth it will
 open the approval screen, otherwise use a key from Saddle → Apps.

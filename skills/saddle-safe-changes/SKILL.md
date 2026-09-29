@@ -1,7 +1,7 @@
 ---
 name: saddle-safe-changes
 description: The protocol for every change made to a WordPress site through Saddle — check recent changes, respect rehearsal and previews, confirm destructive steps with the owner, verify the result on the live page, and undo cleanly when something went wrong. Use before any Saddle write, and whenever the user asks to undo, revert or roll back something the AI did.
-license: GPL-2.0-or-later
+license: MIT-0
 metadata:
   author: PlugPress
   homepage: https://saddle.to

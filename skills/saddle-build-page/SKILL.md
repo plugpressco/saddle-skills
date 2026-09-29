@@ -1,7 +1,7 @@
 ---
 name: saddle-build-page
 description: Build, rebuild or restyle a WordPress page through Saddle with real, editable blocks (block editor) or Divi 5 modules, in the site's own design system, and prove it is right before calling it done. Use when the user asks for a new page, a landing page, a section, or a redesign on a site connected through Saddle.
-license: GPL-2.0-or-later
+license: MIT-0
 metadata:
   author: PlugPress
   homepage: https://saddle.to

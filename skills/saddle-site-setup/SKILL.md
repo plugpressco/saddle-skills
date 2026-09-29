@@ -1,7 +1,7 @@
 ---
 name: saddle-site-setup
 description: Set Saddle up for one WordPress site the first time — interview the owner once about the site, its audience, key pages, voice and rules, and store the answers in the site's own Saddle memory so every later session and every AI app starts informed. Use right after connecting Saddle, or when the user says the AI keeps forgetting how their site works.
-license: GPL-2.0-or-later
+license: MIT-0
 metadata:
   author: PlugPress
   homepage: https://saddle.to

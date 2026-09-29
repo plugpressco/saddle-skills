@@ -1,7 +1,7 @@
 ---
 name: saddle-seo
 description: Read and edit SEO fields on a WordPress site through Saddle — SEO title, meta description, robots and schema in Yoast SEO, Rank Math or AIOSEO — and fix the SEO and accessibility findings Saddle's page check reports. Use when the user asks about SEO titles, descriptions, indexing, schema, or search appearance on a site connected through Saddle.
-license: GPL-2.0-or-later
+license: MIT-0
 metadata:
   author: PlugPress
   homepage: https://saddle.to
