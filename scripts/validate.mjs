@@ -8,8 +8,8 @@
  *
  * scripts/tools.txt is exported from the Saddle plugin (see README, "Keeping
  * the skills true"). Tool families that belong to other plugins — saddle-rank-*
- * (Saddle Rank), saddle-knovia-* — and placeholder forms like
- * saddle-<plugin>-get-post-seo are skipped.
+ * (Saddle Rank), saddle-bridle-kb-* (Bridle KB, via Saddle Pro) — and
+ * placeholder forms like saddle-<plugin>-get-post-seo are skipped.
  */
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
@@ -17,7 +17,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = join( dirname( fileURLToPath( import.meta.url ) ), '..' );
 const tools = new Set( readFileSync( join( root, 'scripts/tools.txt' ), 'utf8' ).split( /\s+/ ).filter( Boolean ) );
-const external = /^saddle-(rank|knovia|analytics|crm)-/;
+const external = /^saddle-(rank|bridle-kb|analytics|crm)-/;
 const errors = [];
 
 for ( const dir of readdirSync( join( root, 'skills' ) ) ) {
