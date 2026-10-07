@@ -17,7 +17,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = join( dirname( fileURLToPath( import.meta.url ) ), '..' );
 const tools = new Set( readFileSync( join( root, 'scripts/tools.txt' ), 'utf8' ).split( /\s+/ ).filter( Boolean ) );
-const external = /^saddle-(rank|knovia|analytics|crm)-/;
+const external = /^saddle-(rank|knovia|analytics|stirrup)-/;
 const errors = [];
 
 for ( const dir of readdirSync( join( root, 'skills' ) ) ) {
