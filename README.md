@@ -1,11 +1,11 @@
 # Saddle skills for WordPress MCP
 
 Skills that teach any AI agent to work on a WordPress site safely through
-[Saddle MCP](https://wordpress.org/plugins/saddle/), the self-hosted WordPress
-MCP server. Saddle MCP is part of [Saddle](https://saddle.to): audience,
-rankings and SEO for WordPress, run by the AI app you already use.
+[Saddle](https://wordpress.org/plugins/saddle/), the self-hosted WordPress
+MCP server. Saddle is the free core of [WP Saddle](https://saddle.to): build,
+rank and grow your website with the AI app you already use.
 
-Saddle MCP turns your own WordPress into an MCP server: nothing goes through a
+Saddle turns your own WordPress into an MCP server: nothing goes through a
 third party, nothing runs agent code, and every destructive step shows a
 preview and waits for your approval. These skills give the agent the protocol
 that goes with it (check the connection, orient, preview, confirm, verify,
