@@ -1,6 +1,6 @@
 ---
 name: saddle-connect
-description: Connect a WordPress site running the Saddle plugin to this AI app, or fix a Saddle connection that fails. Use when the user asks to connect, link or add their WordPress site, when no saddle-* tools are available, or when Saddle calls fail with 401 or missing tools. Gives the exact steps for Claude, Claude Code, ChatGPT, Codex, Cursor, VS Code, Gemini CLI, Windsurf, OpenClaw and Grok.
+description: Connect a WordPress site running the Saddle plugin to this AI agent, or fix a Saddle connection that fails. Use when the user asks to connect, link or add their WordPress site, when no saddle-* tools are available, or when Saddle calls fail with 401 or missing tools. Gives the exact steps for Claude, Claude Code, ChatGPT, Codex, Cursor, VS Code, Gemini CLI, Windsurf, OpenClaw and Grok.
 license: MIT-0
 metadata:
   author: PlugPress
