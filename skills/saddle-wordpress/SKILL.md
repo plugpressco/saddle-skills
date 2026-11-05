@@ -76,6 +76,7 @@ Do not call read tools just to test the connection; step 1 and 2 are enough.
 | write or edit posts, pages, products, media, categories, menus | `saddle-content` |
 | updates, site health, plugins, themes, templates, settings | `saddle-site-care` |
 | SEO titles, descriptions, robots, schema | `saddle-seo` |
+| find where people discuss the site's topics, and draft replies to post | `saddle-find-the-conversations` |
 
 ## 5. Finish honestly
 

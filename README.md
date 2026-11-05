@@ -59,6 +59,7 @@ agent — the `saddle-connect` skill knows the steps for every app.
 | `saddle-content` | Posts, pages, custom content types, media, categories and menus |
 | `saddle-site-care` | Updates, Site Health, plugins, themes, settings, templates, header and footer |
 | `saddle-seo` | SEO fields in Yoast SEO, Rank Math or AIOSEO, and the SEO findings of the page check |
+| `saddle-find-the-conversations` | Finds the Reddit threads, forum topics and Q&A questions about the site's topics and drafts honest replies for the owner to post; it never posts |
 
 Each site also serves its own playbooks, written for its theme and builder;
 the skills fetch them with `saddle-get-skill` instead of copying them, so the
