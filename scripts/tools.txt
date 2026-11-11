@@ -8,6 +8,7 @@ saddle-aioseo-get-post-seo
 saddle-bootstrap-design-system
 saddle-context-bundle
 saddle-create-category
+saddle-create-menu
 saddle-create-page
 saddle-create-post
 saddle-create-tag
@@ -57,6 +58,7 @@ saddle-get-global-styles
 saddle-get-instructions
 saddle-get-media
 saddle-get-menu
+saddle-get-module-settings
 saddle-get-option
 saddle-get-page
 saddle-get-post
@@ -68,12 +70,15 @@ saddle-get-skill
 saddle-get-template
 saddle-get-user
 saddle-insert-block-pattern
+saddle-install-plugin
+saddle-install-theme
 saddle-lint-page
 saddle-list-block-patterns
 saddle-list-block-types
 saddle-list-categories
 saddle-list-media
 saddle-list-menus
+saddle-list-modules
 saddle-list-options
 saddle-list-pages
 saddle-list-plugins
@@ -103,6 +108,7 @@ saddle-remove-menu-item
 saddle-render-node
 saddle-save-pattern
 saddle-search-content
+saddle-search-plugins
 saddle-self-check
 saddle-set-auto-update
 saddle-set-blocks
@@ -111,13 +117,16 @@ saddle-set-template
 saddle-undo-changes
 saddle-unsplash-import
 saddle-unsplash-search
+saddle-update-core
 saddle-update-media
 saddle-update-menu-item
+saddle-update-module-settings
 saddle-update-option
 saddle-update-page
 saddle-update-plugin
 saddle-update-post
 saddle-update-theme
+saddle-update-translations
 saddle-upload-media
 saddle-verify-page
 saddle-wc-check-setup
