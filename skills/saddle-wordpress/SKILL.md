@@ -1,15 +1,15 @@
 ---
 name: saddle-wordpress
-description: Work on a WordPress site through Saddle, the self-hosted WordPress MCP server. Use for any request about a WordPress site that has Saddle connected — reading or editing posts, pages, products and other content, building or fixing pages, menus, templates, SEO fields, media, plugin and theme updates, site health, or undoing a change. Covers the connection check, how access levels, previews and rehearsal work, and which Saddle skill to follow next.
+description: Work on a WordPress site through SaddleWP, the self-hosted WordPress MCP server. Use for any request about a WordPress site that has SaddleWP connected — reading or editing posts, pages, products and other content, building or fixing pages, menus, templates, SEO fields, media, plugin and theme updates, site health, or undoing a change. Covers the connection check, how access levels, previews and rehearsal work, and which SaddleWP skill to follow next.
 license: MIT-0
 metadata:
   author: PlugPress
   homepage: https://saddle.to
 ---
 
-# Working on WordPress with Saddle
+# Working on WordPress with SaddleWP
 
-Saddle is a WordPress plugin that turns the owner's own site into an MCP
+SaddleWP is a WordPress plugin that turns the owner's own site into an MCP
 server. Nothing goes through a third party: you talk to the site directly, and
 the site decides what you may do. Every destructive step shows a preview and
 waits for a confirmation. Follow this protocol so the owner can trust what you
@@ -17,13 +17,13 @@ do on a live site.
 
 ## 1. Find the connection
 
-Saddle's tools are named `saddle-<action>`, for example `saddle-get-site-info`.
+SaddleWP's tools are named `saddle-<action>`, for example `saddle-get-site-info`.
 Your client may prefix them with the server's name (in Claude Code:
 `mcp__saddle-mysite__saddle-get-site-info`). **Each connected server is one
 site.** If several are connected, pick the one whose name or address matches
 the site the user means, and ask when it is ambiguous.
 
-- No `saddle-*` tools at all: Saddle isn't connected to this app. Follow the
+- No `saddle-*` tools at all: SaddleWP isn't connected to this app. Follow the
   `saddle-connect` skill.
 - Tools exist but fail with 401: the sign-in key was revoked or the host strips
   the Authorization header. Call `saddle-self-check` if it answers; otherwise
@@ -68,8 +68,8 @@ Do not call read tools just to test the connection; step 1 and 2 are enough.
 
 | The user wants to… | Follow |
 |---|---|
-| connect Saddle to this app, or fix a connection | `saddle-connect` |
-| set Saddle up for their site the first time | `saddle-site-setup` |
+| connect SaddleWP to this app, or fix a connection | `saddle-connect` |
+| set SaddleWP up for their site the first time | `saddle-site-setup` |
 | change anything (every write) | `saddle-safe-changes`, always |
 | build, rebuild or restyle a page | `saddle-build-page` |
 | fix what a page check reported | `saddle-fix-page` |

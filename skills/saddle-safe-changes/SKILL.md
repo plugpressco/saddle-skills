@@ -1,13 +1,13 @@
 ---
 name: saddle-safe-changes
-description: The protocol for every change made to a WordPress site through Saddle — check recent changes, respect rehearsal and previews, confirm destructive steps with the owner, verify the result on the live page, and undo cleanly when something went wrong. Use before any Saddle write, and whenever the user asks to undo, revert or roll back something the AI did.
+description: The protocol for every change made to a WordPress site through SaddleWP — check recent changes, respect rehearsal and previews, confirm destructive steps with the owner, verify the result on the live page, and undo cleanly when something went wrong. Use before any SaddleWP write, and whenever the user asks to undo, revert or roll back something the AI did.
 license: MIT-0
 metadata:
   author: PlugPress
   homepage: https://saddle.to
 ---
 
-# Making changes safely with Saddle
+# Making changes safely with SaddleWP
 
 The site is live. Follow these steps for every change, small ones included.
 
@@ -51,7 +51,7 @@ The site is live. Follow these steps for every change, small ones included.
 
 ## Undo
 
-Every change Saddle makes is logged with what it replaced.
+Every change SaddleWP makes is logged with what it replaced.
 
 1. `saddle-recall-changes` lists entries newest first. Each has an `id` and an
    `undo` state: `available`, `undone`, or `not-recorded`.

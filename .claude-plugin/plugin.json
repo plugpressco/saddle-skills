@@ -1,8 +1,8 @@
 {
   "name": "saddle",
-  "displayName": "Saddle for WordPress",
+  "displayName": "SaddleWP for WordPress",
   "version": "1.0.0",
-  "description": "Work on your own WordPress site safely: connect Saddle, the self-hosted WordPress MCP server, and follow its protocol for building pages, editing content, SEO, updates and undo. Nothing goes through a third party.",
+  "description": "Work on your own WordPress site safely: connect SaddleWP, the self-hosted WordPress MCP server, and follow its protocol for building pages, editing content, SEO, updates and undo. Nothing goes through a third party.",
   "author": {
     "name": "PlugPress",
     "url": "https://saddle.to",
@@ -22,7 +22,7 @@
   "userConfig": {
     "mcp_url": {
       "type": "string",
-      "title": "Your site's Saddle address",
+      "title": "Your site's SaddleWP address",
       "description": "The address from Saddle \u2192 Apps in your WordPress admin, for example https://example.com/wp-json/saddle/v1/mcp. Claude Code opens your site's approval screen the first time you use it.",
       "required": true
     }

@@ -1,9 +1,9 @@
-# Saddle skills
+# SaddleWP skills
 
 Skills that teach any AI agent to work on a WordPress site safely through
-[Saddle](https://saddle.to), the self-hosted WordPress MCP server.
+[SaddleWP](https://saddle.to), the self-hosted WordPress MCP server.
 
-Saddle turns your own WordPress into an MCP server: nothing goes through a
+SaddleWP turns your own WordPress into an MCP server: nothing goes through a
 third party, nothing runs agent code, and every destructive step shows a
 preview and waits for your approval. These skills give the agent the protocol
 that goes with it — check the connection, orient, preview, confirm, verify,
@@ -26,7 +26,7 @@ Add `-g` to install for your user instead of the current project, or
 `-a openclaw` (`-a codex`, `-a cursor`, …) to choose the agent.
 
 **Claude Code** (the skills plus your site's connection in one plugin; it asks
-for your site's Saddle address):
+for your site's SaddleWP address):
 
 ```text
 /plugin marketplace add plugpressco/saddle-skills
@@ -41,7 +41,7 @@ and upload it in Customize → Skills → + → Upload a skill. Start with
 
 ## Then connect your site
 
-Install Saddle on your WordPress site (Plugins → Add New → "Saddle"), open
+Install SaddleWP on your WordPress site (Plugins → Add New → "Saddle"), open
 **Saddle → Apps**, turn on sign-in for apps, and pick your app: it shows the
 exact step, or a one-click button for Claude, Cursor and VS Code. Or ask your
 agent — the `saddle-connect` skill knows the steps for every app.
@@ -51,8 +51,8 @@ agent — the `saddle-connect` skill knows the steps for every app.
 | Skill | What it does |
 |---|---|
 | `saddle-wordpress` | The entry point: finds the connection, orients once, explains access levels, previews and rehearsal, and routes to the others |
-| `saddle-connect` | Connects Saddle to Claude, Claude Code, ChatGPT, Codex, Cursor, VS Code, Gemini CLI, Windsurf, OpenClaw or Grok, and fixes failing connections |
-| `saddle-site-setup` | Interviews the owner once and stores the site's purpose, key pages, voice and rules in the site's own Saddle memory |
+| `saddle-connect` | Connects SaddleWP to Claude, Claude Code, ChatGPT, Codex, Cursor, VS Code, Gemini CLI, Windsurf, OpenClaw or Grok, and fixes failing connections |
+| `saddle-site-setup` | Interviews the owner once and stores the site's purpose, key pages, voice and rules in the site's own SaddleWP memory |
 | `saddle-safe-changes` | The protocol for every write: recent changes, previews, confirmation, verification, and undo |
 | `saddle-build-page` | Builds or restyles a page in the site's own design system, then proves it |
 | `saddle-fix-page` | Works a page check report down to clean, in the right order |
@@ -68,8 +68,8 @@ two never disagree.
 ## Keeping the skills true
 
 `scripts/validate.mjs` checks every skill against the Agent Skills format and
-fails if a skill names a tool Saddle doesn't have. The tool list in
-`scripts/tools.txt` is exported from the Saddle plugin:
+fails if a skill names a tool SaddleWP doesn't have. The tool list in
+`scripts/tools.txt` is exported from the SaddleWP plugin:
 
 ```bash
 # from a checkout of plugpressco/saddle, next to this repo
@@ -84,5 +84,5 @@ Questions, problems or ideas: **team@plugpress.io**, or open an issue here.
 
 ## License
 
-MIT-0. Saddle itself is GPL-2.0-or-later and lives at
+MIT-0. SaddleWP itself is GPL-2.0-or-later and lives at
 [plugpressco/saddle](https://github.com/plugpressco/saddle).

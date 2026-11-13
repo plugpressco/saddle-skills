@@ -1,6 +1,6 @@
 {
   "name": "saddle",
-  "description": "Saddle, the self-hosted WordPress MCP server: skills that teach any AI agent to work on a WordPress site safely.",
+  "description": "SaddleWP, the self-hosted WordPress MCP server: skills that teach any AI agent to work on a WordPress site safely.",
   "owner": {
     "name": "PlugPress",
     "url": "https://saddle.to",
@@ -10,7 +10,7 @@
     {
       "name": "saddle",
       "source": "./",
-      "description": "Connect your WordPress site through Saddle and follow its safe-change protocol: build pages, edit content, SEO, updates and undo."
+      "description": "Connect your WordPress site through SaddleWP and follow its safe-change protocol: build pages, edit content, SEO, updates and undo."
     }
   ]
 }
