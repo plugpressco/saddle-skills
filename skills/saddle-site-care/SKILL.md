@@ -1,13 +1,13 @@
 ---
 name: saddle-site-care
-description: Look after a WordPress site through Saddle — plugin and theme updates through WordPress's own updater, Site Health, activating plugins and themes, site settings, cache, and block-theme templates, header, footer and patterns. Use when the user asks to update plugins, check the site's health, change a setting, or edit a template, header or footer on a site connected through Saddle.
+description: Look after a WordPress site through SaddleWP — plugin and theme updates through WordPress's own updater, Site Health, activating plugins and themes, site settings, cache, and block-theme templates, header, footer and patterns. Use when the user asks to update plugins, check the site's health, change a setting, or edit a template, header or footer on a site connected through SaddleWP.
 license: MIT-0
 metadata:
   author: PlugPress
   homepage: https://saddle.to
 ---
 
-# Site care with Saddle
+# Site care with SaddleWP
 
 Most of these tools need the "Managing the site" access level. Follow
 `saddle-safe-changes` for every write.
@@ -27,7 +27,7 @@ Most of these tools need the "Managing the site" access level. Follow
 4. `saddle-set-auto-update` turns WordPress's own auto-updates on or off for
    one plugin or theme.
 
-Saddle never installs or deletes a plugin, never updates WordPress itself, and
+SaddleWP never installs or deletes a plugin, never updates WordPress itself, and
 updates can't be undone once applied — say so before confirming.
 
 ## Plugins, themes, settings
@@ -35,7 +35,7 @@ updates can't be undone once applied — say so before confirming.
 - `saddle-list-plugins`, `saddle-activate-plugin`,
   `saddle-deactivate-plugin`; `saddle-list-themes`, `saddle-activate-theme`.
 - `saddle-list-options` / `saddle-get-option` / `saddle-update-option` for
-  the settings Saddle allows: title, tagline, time and date, reading (front
+  the settings SaddleWP allows: title, tagline, time and date, reading (front
   page, posts per page, search visibility), discussion defaults and
   permalinks.
   The site address, security keys, roles and admin email are never writable.
@@ -54,4 +54,4 @@ updates can't be undone once applied — say so before confirming.
    section of a page as a reusable pattern.
 
 Classic themes have no block templates; their header and footer live in PHP
-files, which Saddle does not edit. Menus are in `saddle-content`.
+files, which SaddleWP does not edit. Menus are in `saddle-content`.

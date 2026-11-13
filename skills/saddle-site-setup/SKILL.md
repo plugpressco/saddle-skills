@@ -1,13 +1,13 @@
 ---
 name: saddle-site-setup
-description: Set Saddle up for one WordPress site the first time — interview the owner once about the site, its audience, key pages, voice and rules, and store the answers in the site's own Saddle memory so every later session and every AI agent starts informed. Use right after connecting Saddle, or when the user says the AI keeps forgetting how their site works.
+description: Set SaddleWP up for one WordPress site the first time — interview the owner once about the site, its audience, key pages, voice and rules, and store the answers in the site's own SaddleWP memory so every later session and every AI agent starts informed. Use right after connecting SaddleWP, or when the user says the AI keeps forgetting how their site works.
 license: MIT-0
 metadata:
   author: PlugPress
   homepage: https://saddle.to
 ---
 
-# Saddle site setup
+# SaddleWP site setup
 
 Interview the owner once and save what matters in the site's own memory with
 `saddle-remember`. That memory lives in their WordPress, not in this chat: any

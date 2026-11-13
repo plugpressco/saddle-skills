@@ -1,15 +1,15 @@
 ---
 name: saddle-connect
-description: Connect a WordPress site running the Saddle plugin to this AI agent, or fix a Saddle connection that fails. Use when the user asks to connect, link or add their WordPress site, when no saddle-* tools are available, or when Saddle calls fail with 401 or missing tools. Gives the exact steps for Claude, Claude Code, ChatGPT, Codex, Cursor, VS Code, Gemini CLI, Windsurf, OpenClaw and Grok.
+description: Connect a WordPress site running the SaddleWP plugin to this AI agent, or fix a SaddleWP connection that fails. Use when the user asks to connect, link or add their WordPress site, when no saddle-* tools are available, or when SaddleWP calls fail with 401 or missing tools. Gives the exact steps for Claude, Claude Code, ChatGPT, Codex, Cursor, VS Code, Gemini CLI, Windsurf, OpenClaw and Grok.
 license: MIT-0
 metadata:
   author: PlugPress
   homepage: https://saddle.to
 ---
 
-# Connecting Saddle
+# Connecting SaddleWP
 
-Every WordPress site running Saddle is its own MCP server. There is no Saddle
+Every WordPress site running SaddleWP is its own MCP server. There is no SaddleWP
 relay: the app talks to the site directly.
 
 **The site's address is** `https://<site>/wp-json/saddle/v1/mcp` — for example
@@ -17,7 +17,7 @@ relay: the app talks to the site directly.
 
 ## Before anything: two things the owner does in wp-admin
 
-1. Install and activate **Saddle** (Plugins → Add New → search "Saddle").
+1. Install and activate **SaddleWP** (Plugins → Add New → search "Saddle").
 2. Open **Saddle → Apps**. If it offers **Turn on sign-in for apps**, turn it
    on. Then any app below needs only the address, and the owner approves it in
    the browser. (It needs HTTPS and pretty permalinks; without them, Saddle →
@@ -86,7 +86,7 @@ open the approval screen, otherwise use a key from Saddle → Apps.
    Saddle → Apps.
 4. **Connected but few tools:** the access level is low, or the account the
    app signed in as lacks the WordPress role. Saddle → Permissions.
-5. **Everything refused:** Saddle is paused (Saddle → Settings).
+5. **Everything refused:** SaddleWP is paused (Saddle → Settings).
 6. **The approval screen never opens:** sign-in for apps is off, or the site
    isn't on HTTPS. Turn it on in Saddle → Apps, or use a key.
 

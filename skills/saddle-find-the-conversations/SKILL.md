@@ -1,6 +1,6 @@
 ---
 name: saddle-find-the-conversations
-description: Find the Reddit threads, forum topics and Q&A questions where people discuss a WordPress site's topics, and draft honest, helpful replies for the owner to post. Learns the topics through Saddle, searches with the agent's own web search, respects each community's rules on self-promotion, and never posts, votes or creates accounts. Use when the user asks where people talk about their topic, how to show up on Reddit or in forums, or how to reach AI answers through communities.
+description: Find the Reddit threads, forum topics and Q&A questions where people discuss a WordPress site's topics, and draft honest, helpful replies for the owner to post. Learns the topics through SaddleWP, searches with the agent's own web search, respects each community's rules on self-promotion, and never posts, votes or creates accounts. Use when the user asks where people talk about their topic, how to show up on Reddit or in forums, or how to reach AI answers through communities.
 license: MIT-0
 metadata:
   author: PlugPress
@@ -26,12 +26,12 @@ post.
    the communities that matter.
 3. `saddle-list-categories`, `saddle-list-tags` and `saddle-list-posts`: what
    the site really writes about.
-4. Top pages. When the site runs Saddle Analytics,
+4. Top pages. When the site runs SaddleWP Analytics,
    `saddle-analytics-get-breakdown` with `dimension` `page` lists the most
    visited ones, and with `dimension` `referrer` shows which communities
    already send visitors. Without it, use the main menu (`saddle-list-menus`,
    then `saddle-get-menu`) and the key pages the owner named.
-5. When Saddle Cloud is also connected to you, read the keywords it tracks for
+5. When a SaddleWP account is also connected to you, read the keywords it tracks for
    this site and, if Search Console is connected there, the searches that
    bring visitors. Those are the words people really type.
 
@@ -55,7 +55,7 @@ Keep a thread when it does at least one of these:
 
 - **Ranks:** it shows on the first page for a topic or keyword. Your search
   tool is close to Google but not the same, so say "showed in my search". When
-  Saddle Cloud is connected, its Google results lookup gives Google's real top
+  a SaddleWP account is connected, its Google results lookup gives Google's real top
   10 for about 2 SEO credits a keyword. Ask the owner before you spend credits.
 - **Is active:** new replies in the last 30 days.
 
@@ -88,7 +88,7 @@ Each draft:
   up: "I run example.com, so I'm biased, but...". No hidden promotion, no
   posing as a customer.
 - **Links only when it helps:** one link to the exact page that goes deeper,
-  not the home page, no tracking codes (Saddle Analytics already counts visits
+  not the home page, no tracking codes (SaddleWP Analytics already counts visits
   from the thread as a referrer).
 - **Fits the thread:** under about 150 words, in the thread's tone and the
   owner's voice (`saddle-recall` with "voice"). No sales words.

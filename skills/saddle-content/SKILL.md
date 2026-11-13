@@ -1,13 +1,13 @@
 ---
 name: saddle-content
-description: Write and manage WordPress content through Saddle — posts, pages, custom content types such as products, events or docs, media, categories and tags, and navigation menus. Use when the user asks to draft, publish, edit, find, organise or remove content, upload images, or change a menu on a site connected through Saddle.
+description: Write and manage WordPress content through SaddleWP — posts, pages, custom content types such as products, events or docs, media, categories and tags, and navigation menus. Use when the user asks to draft, publish, edit, find, organise or remove content, upload images, or change a menu on a site connected through SaddleWP.
 license: MIT-0
 metadata:
   author: PlugPress
   homepage: https://saddle.to
 ---
 
-# Content with Saddle
+# Content with SaddleWP
 
 Follow `saddle-safe-changes` for every write.
 

@@ -1,13 +1,13 @@
 ---
 name: saddle-seo
-description: Read and edit SEO fields on a WordPress site through Saddle — SEO title, meta description, robots and schema in Yoast SEO, Rank Math or AIOSEO — and fix the SEO and accessibility findings Saddle's page check reports. Use when the user asks about SEO titles, descriptions, indexing, schema, or search appearance on a site connected through Saddle.
+description: Read and edit SEO fields on a WordPress site through SaddleWP — SEO title, meta description, robots and schema in Yoast SEO, Rank Math or AIOSEO — and fix the SEO and accessibility findings SaddleWP's page check reports. Use when the user asks about SEO titles, descriptions, indexing, schema, or search appearance on a site connected through SaddleWP.
 license: MIT-0
 metadata:
   author: PlugPress
   homepage: https://saddle.to
 ---
 
-# SEO with Saddle
+# SEO with SaddleWP
 
 ## 1. Which SEO plugin?
 
@@ -36,8 +36,8 @@ off in search results, a published post with no excerpt, link text like
 "click here", links and buttons a screen reader can't name, missing alt text
 and skipped heading levels. Fix the ones the owner agrees with.
 
-## 4. When the site runs Saddle Rank
+## 4. When the site runs SaddleWP Rank
 
-Saddle Rank adds `saddle-rank-*` tools for AI visibility (how AI assistants
+SaddleWP Rank adds `saddle-rank-*` tools for AI visibility (how AI assistants
 see and cite the site). Use them when present; the check tools above still
 cover the classic SEO fields.

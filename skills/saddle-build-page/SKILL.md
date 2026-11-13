@@ -1,13 +1,13 @@
 ---
 name: saddle-build-page
-description: Build, rebuild or restyle a WordPress page through Saddle with real, editable blocks (block editor) or Divi 5 modules, in the site's own design system, and prove it is right before calling it done. Use when the user asks for a new page, a landing page, a section, or a redesign on a site connected through Saddle.
+description: Build, rebuild or restyle a WordPress page through SaddleWP with real, editable blocks (block editor) or Divi 5 modules, in the site's own design system, and prove it is right before calling it done. Use when the user asks for a new page, a landing page, a section, or a redesign on a site connected through SaddleWP.
 license: MIT-0
 metadata:
   author: PlugPress
   homepage: https://saddle.to
 ---
 
-# Building a page with Saddle
+# Building a page with SaddleWP
 
 Each site serves its own page-building playbook, written for that site's theme,
 builder and design system. **Follow the site's playbook; this skill gets you to
