@@ -33,4 +33,19 @@ metadata:
 6. **Look at it:** `saddle-get-preview-url`. A clean score is not a
    screenshot.
 
+## Divi 5 pages
+
+The order above is the same. The tools differ:
+
+- Read with `saddle-divi-get-page`, fix one address at a time with
+  `saddle-divi-edit-module`, and re-read after a structural edit.
+- An ignored value usually means a wrong path. Take the path from
+  `saddle-divi-get-style-schema`, or the setting id from
+  `saddle-divi-get-module-schema`, and write it again.
+- To remove a value, pass its path in `unset` on `saddle-divi-edit-module`.
+- Notes in the report are advice. They cost no points; fix the ones that fit
+  the design.
+- `saddle-divi-get-rendered-page` returns the real HTML and CSS when you need
+  to see what Divi printed.
+
 Follow `saddle-safe-changes` for every edit.
