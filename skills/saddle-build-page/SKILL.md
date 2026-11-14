@@ -34,12 +34,32 @@ it and holds you to the finish.**
   values, so the page follows the owner's palette if it changes.
 - Read `saddle-get-block-schema` before using a block type for the first time.
 
+On a Divi 5 site, plan from the site itself:
+
+- `saddle-divi-check-setup` says which screen sizes the site has switched on.
+  `saddle-divi-context-bundle` gives the modules, colours, variables and
+  presets in one call.
+- Read the site's best existing page with `saddle-divi-get-page` and reuse its
+  presets and section rhythm before styling anything by hand.
+- Find a module with `saddle-divi-list-modules` (`search`), then read
+  `saddle-divi-get-module-schema`. It lists the content fields and every
+  setting of that module, for Divi's own modules and for add-on packs.
+
 ## 3. Build
 
 - New page: `saddle-create-page` (a draft unless the user says publish), then
   `saddle-set-blocks` with the nodes. Existing page: `saddle-get-blocks`, then
   small edits with `saddle-add-block`, `saddle-edit-block`, `saddle-move-block`.
 - Never dump raw HTML into one block to fake a layout.
+- Divi 5: `saddle-divi-set-page` for the first build, then
+  `saddle-divi-add-module` and `saddle-divi-edit-module` by address. A node
+  holds `fields` (text), `settings` (every other option of the module),
+  `attrs` (styling, on the paths `saddle-divi-get-style-schema` returns) and
+  `children`. Give each row with more than one column a `columns` value such
+  as `"1/2,1/2"`, and set phone values with the `@phone` suffix. The site's
+  `divi-build-page` playbook has the exact syntax.
+- Read every write response: `warnings` name values Divi will ignore, and
+  `notes` say what SaddleWP filled in for you.
 - Addresses shift after structural edits: re-read with `saddle-get-blocks`
   before addressing another node.
 - Follow `saddle-safe-changes` for previews, rehearsal and refusals.
@@ -47,7 +67,10 @@ it and holds you to the finish.**
 ## 4. Prove it
 
 1. `saddle-verify-page`. Work the findings down with `saddle-fix-page`.
+   Findings marked as notes are advice and cost no points.
 2. `saddle-get-preview-url` and look at the page (a screenshot if your app can
    open it). The score is server-side only; it can't see pixels.
+   If your app cannot open a page, `saddle-divi-get-rendered-page` returns a
+   Divi page's real HTML and CSS to read instead.
 3. Tell the user the page link, the score, and anything you couldn't check.
 4. If the page's layout is worth reusing, offer `saddle-save-pattern`.
